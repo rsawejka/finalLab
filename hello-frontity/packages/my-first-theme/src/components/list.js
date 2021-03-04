@@ -6,6 +6,7 @@ const List = ({ state, actions  }) => {
     const data = state.source.get(state.router.link)
 
 
+
     return (
         <Items>
             {data.items.map((item) => {
@@ -13,9 +14,13 @@ const List = ({ state, actions  }) => {
                 return (
                     <Link key={item.id} link={post.link}>
                         {post.title.rendered}
+
                     </Link>
+
                 )
+
             })}
+
             <PrevNextNav>
                 {data.previous && (
                     <button
