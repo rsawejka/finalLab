@@ -1,15 +1,15 @@
 const settings = {
-  "name": "hello-frontity",
+  "name": "books",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
+      "url": "http://rsawejka.bitlampsites.com/wpd/wordpress/wordpressfinal/wp-json/wp/v2/books",
+      "title": "Books",
       "description": "WordPress installation for Frontity development"
     }
   },
   "packages": [
     {
-      "name": "my-first-theme",
+      "name": "book-theme",
       "state": {
         "theme": {
           "menu": [
