@@ -1,21 +1,16 @@
-const Root = () => {
-  return (
-    <>
-      You can edit your package in:
-      <pre>packages\book-theme\src\index.js</pre>
-    </>
-  );
-};
+import Root from "./components"
 
-export default {
-  name: "book-theme",
+const myFirstTheme = {
+  name: "my-first-theme",
   roots: {
-    booktheme: Root
+    theme: Root,
   },
   state: {
-    booktheme: {}
+    theme: {},
   },
   actions: {
-    booktheme: {}
-  }
-};
+    theme: {},
+  },
+}
+
+export default myFirstTheme
